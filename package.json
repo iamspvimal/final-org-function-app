@@ -1,0 +1,14 @@
+{
+  "name": "organic-triggerfun01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "mongodb": "^4.1.2"
+  },
+  "devDependencies": {}
+}

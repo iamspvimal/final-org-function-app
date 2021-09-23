@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "msg-queue-store",
+      "connection": "azstorage-queue"
+    },
+    {
+      "type": "queue",
+      "direction": "out",
+      "name": "outputQueueItem",
+      "queueName": "msg-outqueue",
+      "connection": "azstorage-queue"
+    }
+  ]
+}
